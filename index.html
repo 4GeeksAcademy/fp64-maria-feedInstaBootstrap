@@ -54,62 +54,90 @@
       </div>
       </nav>
     </div>
-      <div class="container mt-3">
-        <div class="row cuadriculas">
-            <div class="col">
-                <div class="d-flex justify-content-center">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#gridView" data-bs-toggle="tab"><i class="bi bi-grid-3x3"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#singleView" data-bs-toggle="tab"><i class="bi bi-square-fill"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-      <div class="row col-4 mb-3 mt-3 justify-content-space-between w-100" id="galeria">
-          <div class="grid-image fade show row mt-3" id="gridView">
-             <div class="col-4 mb-3 grid-image fade show">
-            <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2016/02/celebra-el-dia-internacional-del-gato.jpg" class="img-fluid" alt="Placeholder">
-        </div>
-        <div class="col-4 mb-3 grid-image fade show">
-          <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2016/02/mi-gato-huele-mal-motivos-y-soluciones.jpg" class="img-fluid" alt="Placeholder">
-            </div>
-            <div class="col-4 mb-3 grid-image fade show">
-                <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2016/02/gato-maine-coon.jpg" class="img-fluid" alt="Placeholder">
-            </div>
-            <div class="col-4 mb-3 grid-image fade show ">
-                <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2010/05/gatos-toxicidad-vitamina-a.jpg" class="img-fluid" alt="Placeholder">
-            </div>
-            <div class="col-4 mb-3 grid-image fade show ">
-                <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2016/02/desparasitar-gatos-cachorros.jpg" class="img-fluid" alt="Placeholder">
-            </div>
-            <div class="col-4 mb-3 grid-image fade show">
-                <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2014/05/gato-roza-nariz.jpg" class="img-fluid" alt="Placeholder">
-            </div>
+    <div class="container mt-3">
+      <div class="row cuadriculas">
+          <div class="col">
+              <div class="d-flex justify-content-center">
+                  <ul class="nav nav-tabs">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#gridView" data-bs-toggle="tab"><i class="bi bi-grid-3x3"></i> Grid View</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#singleView" data-bs-toggle="tab"><i class="bi bi-square-fill"></i> Single View</a>
+                      </li>
+                  </ul>
+              </div>
           </div>
-          <div class="col-12 single-image fade show" id="singleView">
-            <div class="container d-flex justify-content-center mt-2 flex-column mb-3" style="max-width:600px;">
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="header1">
-                        <h4>Un gato siamés</h4>
-                    </div>
-                    <div class="header2">
-                        <p>10/03</p>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2010/06/lenguaje-gato.jpg" class="img-fluid" alt="Placeholder">
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    
-
-
+      </div>
+      <div class="tab-content">
+          <div class="row col-4 mb-3 mt-3 justify-content-space-between w-100 tab-pane fade show active" id="gridView">
+              <div class="grid-image fade show row mt-3">
+                  <div class="col-4 mb-3">
+                      <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2016/02/celebra-el-dia-internacional-del-gato.jpg" class="img-fluid" alt="Placeholder">
+                  </div>
+                  <div class="col-4 mb-3">
+                      <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2016/02/mi-gato-huele-mal-motivos-y-soluciones.jpg" class="img-fluid" alt="Placeholder">
+                  </div>
+                  <div class="col-4 mb-3">
+                      <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2016/02/gato-maine-coon.jpg" class="img-fluid" alt="Placeholder">
+                  </div>
+                  <div class="col-4 mb-3">
+                      <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2010/05/gatos-toxicidad-vitamina-a.jpg" class="img-fluid" alt="Placeholder">
+                  </div>
+                  <div class="col-4 mb-3">
+                      <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2016/02/desparasitar-gatos-cachorros.jpg" class="img-fluid" alt="Placeholder">
+                  </div>
+                  <div class="col-4 mb-3">
+                      <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2014/05/gato-roza-nariz.jpg" class="img-fluid" alt="Placeholder">
+                  </div>
+              </div>
+          </div>
+          <div class="row col-4 mb-3 mt-3 justify-content-space-between w-100 tab-pane fade" id="singleView">
+              <div class="col-12">
+                  <div class="container d-flex justify-content-center mt-2 flex-column mb-3" style="max-width:600px;">
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="header1">
+                              <h4>Un gato siamés</h4>
+                          </div>
+                          <div class="header2">
+                              <p>10/03</p>
+                          </div>
+                      </div>
+                      <div class="d-flex justify-content-center">
+                          <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2010/06/lenguaje-gato.jpg" class="img-fluid" alt="Placeholder">
+                      </div>
+                      <div class="container d-flex justify-content-center mt-2 flex-column mb-3" style="max-width:600px;">
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="header1">
+                                  <h4>Una gata</h4>
+                              </div>
+                              <div class="header2">
+                                  <p>11/03</p>
+                              </div>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                              <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2016/02/celebra-el-dia-internacional-del-gato.jpg" class="img-fluid" alt="Placeholder">
+                          </div>
+                      </div>
+                      <div class="container d-flex justify-content-center mt-2 flex-column mb-3" style="max-width:600px;">
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="header1">
+                                  <h4>Un gato lavándose</h4>
+                              </div>
+                              <div class="header2">
+                                  <p>12/03</p>
+                              </div>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                              <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2016/02/mi-gato-huele-mal-motivos-y-soluciones.jpg" class="img-fluid" alt="Placeholder">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
